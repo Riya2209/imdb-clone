@@ -1,0 +1,33 @@
+.header {
+    margin: 0 0.25rem;
+    padding: 0.5rem 0;
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover,
+a > span:focus{
+    width: 80px;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: rgb(255, 217, 0);
+}
+/* a > span:visited{
+    color: rgb(255, 217, 0);
+} */
+.user-avatar{
+    font-size: 2rem;
+}
